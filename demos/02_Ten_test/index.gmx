@@ -1,0 +1,6 @@
+var (
+	butTen  butTen
+	times int
+)
+
+run "res", {Title: "10秒真男人游戏"}

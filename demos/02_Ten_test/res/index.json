@@ -1,0 +1,31 @@
+{
+    "costumes": [{
+        "bitmapResolution": 1,
+        "name": "backdrop1",
+        "path": "bg.png",
+        "x": 240,
+        "y": 180
+    }],
+    "currentCostumeIndex": 0,
+    "zorder": [{
+            "type": "stageMonitor",
+            "target": "",
+            "val": "getVar:normal",
+            "color": 15629590,
+            "label": "normal",
+            "mode": 1,
+            "sliderMin": 0,
+            "sliderMax": 100,
+            "x": 5,
+            "y": 5,
+            "isDiscrete": true,
+            "visible": true
+        },
+        {
+            "type": "sprite",
+            "target": "butTen",
+            "x": 0,
+            "y": 50
+        }
+    ]
+}

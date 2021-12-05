@@ -1,0 +1,21 @@
+onTouched => {
+	destroy
+}
+onStart => {
+    for{
+        for i := range 0:11{
+            times= i;
+            wait 0.01
+            clone
+        }
+    }
+}
+onClick => {
+    if times==10 {
+        say "真男人",2
+    }else{
+        say times,2.0
+    }
+    times=0
+	clone
+}

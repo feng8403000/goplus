@@ -1,0 +1,17 @@
+{
+    "costumes": [{
+        "bitmapResolution": 1,
+        "name": "normal",
+        "path": "button.png",
+        "x": 10,
+        "y": 50
+    }],
+    "currentCostumeIndex": 0,
+    "heading": 90,
+    "isDraggable": true,
+    "rotationStyle": "butTen",
+    "size": 0.2,
+    "visible": true,
+    "x": 50,
+    "y": 50
+}
